@@ -17,7 +17,7 @@ class UNCOVERED_API AUCInteractableObject : public AActor, public IInteractable
 // Interactable Interface
 // ─────────────────────────────────────────────────────────────
 public:
-	/** 상호작용 오브젝트의 루트 컴포넌트와 감지용 박스 콜리전을 생성합니다. */
+	/** 상호작용 오브젝트의 루트, 외형을 표시할 메시 및 메시를 따라 이동하는 감지용 박스 콜리전을 생성합니다. */
 	AUCInteractableObject();
 
 private:
@@ -30,15 +30,11 @@ private:
 // ─────────────────────────────────────────────────────────────
 private:
 	/** 하위 컴포넌트의 상대 위치, 회전 및 크기를 설정할 기준 루트를 구성합니다. */
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "변수|상호작용", meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	TObjectPtr<USceneComponent> SceneComponent;
 	
-	/** Interactable 채널의 트레이스가 감지할 상호작용 영역을 정의합니다. */
-    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "변수|상호작용", meta = (AllowPrivateAccess = "true"))
+	/** 상호작용 오브젝트의 외형을 표시하고 감지용 박스 콜리전의 부착 기준을 제공합니다. */
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
     TObjectPtr<UStaticMeshComponent> Mesh;
-	
-	/** Interactable 채널의 트레이스가 감지할 상호작용 영역을 정의합니다. */
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "변수|상호작용", meta = (AllowPrivateAccess = "true"))
-	TObjectPtr<UBoxComponent> BoxCollision;
 	
 };
