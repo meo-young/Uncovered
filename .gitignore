@@ -1,5 +1,10 @@
 # Visual Studio 2015 user specific files
 .vs/
+.vsconfig
+Automation_Uncovered.slnx
+Uncovered.slnx
+*.DotSettings
+*.DotSettings.user
 
 # Compiled Object files
 *.slo
