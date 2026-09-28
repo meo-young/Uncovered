@@ -1,0 +1,20 @@
+Generation mode: built-in image_gen (edit)
+
+Use case: precise-object-edit / ui-mockup.
+Image 1 is the EDIT TARGET, an existing flat phone messaging screen texture. Image 2 is a STYLE REFERENCE ONLY for a centered date separator pill with calendar icon, not for its literal date.
+Edit image 1 to meet ALL of the following. Preserve flat edge-to-edge rectangular phone SCREEN ONLY texture, 1:2 portrait aspect ratio, pale cool-gray background, clean dark Korean sans-serif typography, header/back/call/menu icons, empty input dock at bottom. No phone body, perspective, border, reflections or keyboard.
+STATUS BAR: time exactly "08:32". Cellular signal bars and a small "LTE" label indicating mobile data. REMOVE Wi-Fi icon entirely. Battery icon must be filled exactly halfway, 50% remaining.
+HEADER NAME: replace 김준석 with exact "김준삽". Pay special attention to final syllable 삽, not 석 or 삼.
+AVATAR: replace generic person silhouette with a circular cropped photographic scenic landscape of a quiet green mountain ridge and pale blue sky. No person or silhouette. Repeat the same landscape avatar for incoming-message groups.
+CONVERSATION: show exactly SIX message bubbles in this chronological order, spaced naturally from near top downward:
+1. LEFT incoming white bubble: "밥 먹음 ?"
+2. RIGHT outgoing soft muted yellow bubble: "혼밥중"
+3. LEFT incoming white bubble: "왕따야 ?"
+4. RIGHT outgoing soft muted yellow bubble: "꺼져"
+These first four bubbles belong to previous conversation history.
+Then a clear centered compact rounded blue-gray DATE SEPARATOR PILL, modeled on Image 2, with tiny calendar outline icon followed by exact legible text "2018년 6월 14일 목요일". Use only this date text, never the year/date of Image 2. This pill marks the start of today's conversation and separates the preceding old messages from the new ones.
+Then:
+5. LEFT incoming white bubble: "어디야 ?"
+6. LEFT incoming white bubble directly below: "올 때 커피좀 !"
+No reply after the last two received messages. Both new messages are from 김준삽.
+Layout the previous four bubbles above the date divider, latest two below it; retain generous empty space below conversation and above bottom composer. Bubble text must be large and legible, exact spelling, spaces and punctuation as quoted. Do not add any other messages. Ensure balanced phone UI proportions and crisp flat shapes. Keep all contents inside screen.
